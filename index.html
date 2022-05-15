@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Digital Hunter Movies</title>
+    <meta name="theme-color" content="#dc2626">
+    <meta name="title" content="Digital Hunter Movies">
+    <meta name="description" content="ကြည့်လင်ပြတ်သားသော ရုပ်ရှင်များ ကြည့်လိုပါက Digital Hunter Movies သို့လှမ်းလာခဲ့နော်">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/sanlinhtik3">
+    <meta property="og:title" content="Digital Hunter Movies">
+    <meta property="og:description" content="ကြည့်လင်ပြတ်သားသော ရုပ်ရှင်များ ကြည့်လိုပါက Digital Hunter Movies သို့လှမ်းလာခဲ့နော်">
+    <meta property="og:image" content="assets/img/thumbnail.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/sanlinhtik3">
+    <meta property="twitter:title" content="Digital Hunter Movies">
+    <meta property="twitter:description" content="ကြည့်လင်ပြတ်သားသော ရုပ်ရှင်များ ကြည့်လိုပါက Digital Hunter Movies သို့လှမ်းလာခဲ့နော်">
+    <meta property="twitter:image" content="assets/img/thumbnail.png">
+
+    <link rel="stylesheet" href="node_module/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_module/colormyar/css/pdf.css">
+    <link rel="stylesheet" href="node_module/@fortawesome/fontawesome-free/css/all.min.css">
+    <script type="module" crossorigin src="assets/swiper/js/index.1e132d72.js"></script>
+    <link rel="modulepreload" href="assets/swiper/js/vendor.d82aaa9c.js">
+    <link rel="stylesheet" href="assets/swiper/css/index.pro.css">
+    <link rel="stylesheet" href="assets/css/cus.css">
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row mb-5 position-sticky top-0 z-index-1 pdf-bg-slat-200 shadow-xl shadow-blue-100">
+        <div class="col-12 px-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row justify-content-between align-items-center my-3">
+                            <div class="col">
+                                <h2 class="fw-bold">DH Movies</h2>
+                            </div>
+                            <div class="col d-none d-lg-block">
+                                <div class="__dh_nav text-center">
+                                    <a class="text-decoration-none text-secondary mx-2 active" href="#">Home</a>
+                                    <a class="text-decoration-none text-secondary mx-2" href="#">TV Series</a>
+                                    <a class="text-decoration-none text-secondary mx-2" href="#">Privacy</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="text-end">
+                                    <a class="text-decoration-none text-black me-2" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a class="text-decoration-none text-white pdf-bg-red-600 p-2 px-3 rounded-pill small" href="#"><i class="fa-regular fa-user me-1"></i> <span>Login</span></a>
+                                </div>
+                            </div>
+                            <div class="col-12 d-block d-lg-none mt-2 border-top border-secondary pt-2">
+                                <div class="__dh_nav text-center">
+                                    <a class="text-decoration-none text-secondary mx-2 active" href="#">Home</a>
+                                    <a class="text-decoration-none text-secondary mx-2" href="#">TV Series</a>
+                                    <a class="text-decoration-none text-secondary mx-2" href="#">Privacy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown-divider my-0"></div>
+    </div>
+    <div class="row">
+        <div class="col-12 px-0">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h4 class="text-center fw-bold">Trending Movies</h4>
+                        <div id="app">
+                            <!-- Carousel slider -->
+                            <div class="carousel-slider">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <!-- elements with  "carousel-slider-animate-opacity" class will have animated opacity -->
+                                            <div class="carousel-slider-animate-opacity">
+                                                <img src="assets/swiper/img/guardians-of-the-galaxy.jpg" alt="">
+                                                <div class="slide-content">
+                                                    <h2 class="pdf-text-slat-200 mb-2">Guardians Of The Galaxy</h2>
+                                                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row">
+                                                        <a class="btn border border-2 rounded rounded-pill pdf-text-slat-200 me-3" href="#">Watch Now</a>
+                                                        <div class="">
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="carousel-slider-animate-opacity">
+                                                <img src="assets/swiper/img/justice-league.jpg" alt="">
+                                                <div class="slide-content">
+                                                    <h2 class="pdf-text-slat-200 mb-2">Justice League</h2>
+                                                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row">
+                                                        <a class="btn border border-2 rounded rounded-pill pdf-text-slat-200 me-3" href="#">Watch Now</a>
+                                                        <div class="">
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="carousel-slider-animate-opacity">
+                                                <img src="assets/swiper/img/spider-man.jpg" alt="">
+                                                <div class="slide-content">
+                                                    <h2 class="pdf-text-slat-200 mb-2">Spider-Man: Far from Home</h2>
+                                                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row">
+                                                        <a class="btn border border-2 rounded rounded-pill pdf-text-slat-200 me-3" href="#">Watch Now</a>
+                                                        <div class="">
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="carousel-slider-animate-opacity">
+                                                <img src="assets/swiper/img/suicide-squad.jpg" alt="">
+                                                <div class="slide-content">
+                                                    <h2 class="pdf-text-slat-200 mb-2">The Suicide Squad</h2>
+                                                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row">
+                                                        <a class="btn border border-2 rounded rounded-pill pdf-text-slat-200 me-3" href="#">Watch Now</a>
+                                                        <div class="">
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="carousel-slider-animate-opacity">
+                                                <img src="assets/swiper/img/thor-ragnarok.jpg" alt="">
+                                                <div class="slide-content">
+                                                    <h2 class="pdf-text-slat-200 mb-2">Thor: Ragnarok</h2>
+                                                    <div class="d-flex justify-content-start align-items-center flex-column flex-lg-row">
+                                                        <a class="btn border border-2 rounded rounded-pill pdf-text-slat-200 me-3" href="#">Watch Now</a>
+                                                        <div class="">
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                            <i class="fa-solid fa-star text-warning"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="d-flex justify-content-between justify-content-center align-items-center">
+                                    <h4 class="fw-bold">Most Watched Movies</h4>
+                                    <h6 class="d-flex align-items-center">
+                                        <span class="mb-1 me-1">See More</span> <i class="fa-solid fa-angle-right"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-4 mb-5 g-3">
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100 hov_fade">
+                                    <img src="assets/img/spider_poster.0.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hov_x">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <h3 class="text-white mb-4"><i class="fa-solid fa-play fa-2xl shape"></i></h3>
+                                            <a class="btn btn-outline-danger pdf-rounded-lg" href="#"><i class="fa-regular fa-circle-play"></i> Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/dr.strange-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/bad-guys.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/dr-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="d-flex justify-content-between justify-content-center align-items-center">
+                                    <h4 class="fw-bold">Best TV Series</h4>
+                                    <h6 class="d-flex align-items-center">
+                                        <span class="mb-1 me-1">See More</span> <i class="fa-solid fa-angle-right"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-4 mb-5 g-3">
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/sonic-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/batman.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/shang-chi.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card overflow-hidden pdf-rounded pdf-rounded-lg border-0 shadow-xl shadow-red-100">
+                                    <img src="assets/img/morbuis.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body __dh_overlay">
+                                        <h5 class="card-title text-white">Movie Name</h5>
+                                        <div class="">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="right-genre">
+                            <div class="mb-5 genre">
+                                <h4 class="fw-bold">Genre</h4>
+                                <div class="row row-cols-2 g-2 small">
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50 active">Sci-Fi</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50">Action</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50">Comedy</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50">Horrors</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50">Adventure</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-2 genre-link text-black-50">Romance</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <h4 class="fw-bold">Media Service</h4>
+                                <div class="row row-cols-5 row-cols-md-6 row-cols-lg-4 g-2">
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="border overflow-hidden bg-light rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px;">
+                                            <img class="w-100" src="https://cdn.vox-cdn.com/thumbor/AwKSiDyDnwy_qoVdLPyoRPUPo00=/39x0:3111x2048/1400x1400/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 mb-5">
+                        <h3 class="fw-bold pdf-text-gray-900">Watch DH Movie everywhere</h3>
+                        <p class="pdf-text-gray-600">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        </p>
+                        <div class="mb-4">
+                            <button class="btn pdf-bg-gray-900 rounded-pill me-3 pdf-text-slat-200"><i class="fa-brands fa-apple me-1"></i> <span>Apple Store</span></button>
+                            <button class="btn pdf-bg-gray-900 rounded-pill me-3 pdf-text-slat-200"> <i class="fa-brands fa-google-play"></i> <span>Apple Store</span></button>
+                        </div>
+                        <div class="">
+                            <a class="text-decoration-none text-dark me-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="text-decoration-none text-dark me-2" href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a class="text-decoration-none text-dark me-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="text-decoration-none text-dark me-2" href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                            <a class="text-decoration-none text-dark me-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mb-5">
+                        <h4>FAQ</h4>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fa-solid fa-0"></i> <i class="fa-solid fa-1"></i> <span class="ms-3">What is DH Movie?</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fa-solid fa-0"></i> <i class="fa-solid fa-2"></i> <span class="ms-3">How must does DH Movie Cost?</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="fa-solid fa-0"></i> <i class="fa-solid fa-3"></i> <span class="ms-3">Where can i watch?</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-4 border-top pdf-border-gray-300">
+                        <div class="small text-center mt-4">
+                            <a class="text-decoration-none text-black m-3" href="#">Home</a>
+                            <a class="text-decoration-none text-black m-3" href="#">FAQ</a>
+                            <a class="text-decoration-none text-black m-3" href="#">Privacy</a>
+                            <a class="text-decoration-none text-black m-3" href="#">Help Center</a>
+                            <a class="text-decoration-none text-black m-3" href="#">Account</a>
+                            <a class="text-decoration-none text-black m-3" href="#">Terms of Use</a>
+                            <a class="text-decoration-none text-black m-3" href="#">Contact US</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="node_module/swiper/swiper-bundle.min.js"></script>
+<script src="assets/swiper/js/beacon.min.js"></script>
+<script src="node_module/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
